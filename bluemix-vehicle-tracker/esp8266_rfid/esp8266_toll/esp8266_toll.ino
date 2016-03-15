@@ -3,9 +3,9 @@
 const char* g_ssid      = "radio";
 const char* g_password  = "radio@123";
 const char* g_host      = "pubsub.pubnub.com";
-const char* g_pubKey    = "pub-c-913ab39c-d613-44b3-8622-2e56b8f5ea6d";
-const char* g_subKey    = "sub-c-8ad89b4e-a95e-11e5-a65d-02ee2ddab7fe";
-const char* g_channel   = "vehicleIdentificanDevice-resp";
+const char* g_pubKey    = "pub-c-a1f796fb-1508-4c7e-9a28-9645035eee90";
+const char* g_subKey    = "sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f";
+const char* g_channel   = "trackerrfid-resp";
 
 /*********************************************************************************
 Function Name     : setup

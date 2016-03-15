@@ -380,6 +380,7 @@ Parameters 		:	message - RFID number from the hardware
 					channel - channel for the callback
 ****************************************************************************************'''
 def rfidCallback(message, channel):
+	print message
 	if(message.has_key("vehicleRFIDnum")):
 		try:
 			databaseLogger(message["vehicleRFIDnum"])

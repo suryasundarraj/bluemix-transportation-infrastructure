@@ -137,7 +137,6 @@ def defaultLoader_settings():
 	ibm_db.free_stmt(l_db_statement)
 	ibm_db.close(l_connection)
 	print "Server Started"
-	print vehicleDetails
 
 '''****************************************************************************************
 Function Name 		: 	trackerUpdate
