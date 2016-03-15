@@ -1,0 +1,93 @@
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=d14eb369-32b2-4aa6-9687-0600505ba268 HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=d14eb369-32b2-4aa6-9687-0600505ba268 HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579572294102826?pnsdk=PubNub-Python%2F3.7.5&uuid=d14eb369-32b2-4aa6-9687-0600505ba268 HTTP/1.1" 200 76
+ERROR:root:Car Not Scanned Properly
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=c0839d84-1b52-427d-b7fd-dcb1c5fc66a6 HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=c0839d84-1b52-427d-b7fd-dcb1c5fc66a6 HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579572621148098?pnsdk=PubNub-Python%2F3.7.5&uuid=c0839d84-1b52-427d-b7fd-dcb1c5fc66a6 HTTP/1.1" 200 76
+ERROR:root:Car Not Scanned Properly
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=a1717cd2-8ecc-46c3-9492-25b77605fc12 HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=a1717cd2-8ecc-46c3-9492-25b77605fc12 HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579573052512614?pnsdk=PubNub-Python%2F3.7.5&uuid=a1717cd2-8ecc-46c3-9492-25b77605fc12 HTTP/1.1" 200 76
+ERROR:root:Car Not Scanned Properly
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=01d7d62c-331f-40fb-9b5e-819dc6f10b99 HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=01d7d62c-331f-40fb-9b5e-819dc6f10b99 HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579573545197335?pnsdk=PubNub-Python%2F3.7.5&uuid=01d7d62c-331f-40fb-9b5e-819dc6f10b99 HTTP/1.1" 200 76
+ERROR:root:Car Not Scanned Properly
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=ef282a17-986b-4995-a273-a0e1f927ef7c HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=ef282a17-986b-4995-a273-a0e1f927ef7c HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579574086054930?pnsdk=PubNub-Python%2F3.7.5&uuid=ef282a17-986b-4995-a273-a0e1f927ef7c HTTP/1.1" 200 76
+ERROR:root:Car Not Scanned Properly
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=514114d3-92e6-4f10-af84-f4d2abab2b3d HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=514114d3-92e6-4f10-af84-f4d2abab2b3d HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579574647789543?pnsdk=PubNub-Python%2F3.7.5&uuid=514114d3-92e6-4f10-af84-f4d2abab2b3d HTTP/1.1" 200 76
+ERROR:root:Car Not Scanned Properly
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=1f1ea676-9300-42ea-b80a-1b1981174e4b HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=1f1ea676-9300-42ea-b80a-1b1981174e4b HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579575160628713?pnsdk=PubNub-Python%2F3.7.5&uuid=1f1ea676-9300-42ea-b80a-1b1981174e4b HTTP/1.1" 200 76
+ERROR:root:Car Not Scanned Properly
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=0dd5018f-265a-49e2-b084-dbac00583e7a HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=0dd5018f-265a-49e2-b084-dbac00583e7a HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579575553357407?pnsdk=PubNub-Python%2F3.7.5&uuid=0dd5018f-265a-49e2-b084-dbac00583e7a HTTP/1.1" 200 76
+ERROR:root:Car Not Scanned Properly
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579575794531486?pnsdk=PubNub-Python%2F3.7.5&uuid=0dd5018f-265a-49e2-b084-dbac00583e7a HTTP/1.1" 200 76
+ERROR:root:Car Not Scanned Properly
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=2d6f7b61-add3-4a1b-a31b-9d2a7e6642b3 HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=2d6f7b61-add3-4a1b-a31b-9d2a7e6642b3 HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579576049462671?pnsdk=PubNub-Python%2F3.7.5&uuid=2d6f7b61-add3-4a1b-a31b-9d2a7e6642b3 HTTP/1.1" 200 76
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=0a2ceaef-35e0-47aa-a28e-28838dabf9f3 HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=0a2ceaef-35e0-47aa-a28e-28838dabf9f3 HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579576893103780?pnsdk=PubNub-Python%2F3.7.5&uuid=0a2ceaef-35e0-47aa-a28e-28838dabf9f3 HTTP/1.1" 200 76
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579577147711694?pnsdk=PubNub-Python%2F3.7.5&uuid=0a2ceaef-35e0-47aa-a28e-28838dabf9f3 HTTP/1.1" 200 77
+ERROR:root:Car Not Scanned Properly
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579577857087588?pnsdk=PubNub-Python%2F3.7.5&uuid=0a2ceaef-35e0-47aa-a28e-28838dabf9f3 HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): pubsub.pubnub.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): pubsub.pubnub.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=dba70719-5707-4236-bdc2-ebb934c3f33e HTTP/1.1" 200 27
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerapp-req/0/0?pnsdk=PubNub-Python%2F3.7.5&uuid=dba70719-5707-4236-bdc2-ebb934c3f33e HTTP/1.1" 200 24
+DEBUG:requests.packages.urllib3.connectionpool:"GET /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579577857087588?pnsdk=PubNub-Python%2F3.7.5&uuid=dba70719-5707-4236-bdc2-ebb934c3f33e HTTP/1.1" 200 77
+DEBUG:requests.packages.urllib3.util.retry:Incremented Retry for (url='/subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579578165900229?pnsdk=PubNub-Python%2F3.7.5&uuid=dba70719-5707-4236-bdc2-ebb934c3f33e'): Retry(total=0, connect=None, read=None, redirect=None)
+WARNING:requests.packages.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='pubsub.pubnub.com', port=80): Read timed out. (read timeout=320)",)': /subscribe/sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f/trackerrfid-resp%2Ctrackerapp-req/0/14579578165900229?pnsdk=PubNub-Python%2F3.7.5&uuid=dba70719-5707-4236-bdc2-ebb934c3f33e
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (3): pubsub.pubnub.com
