@@ -42,11 +42,8 @@ var app = {
         $(document).ready(function(){              
             $('#usrsubmit').click(function(){  
                 app.publish()
-                console.log(window.localStorage.getItem('usrnm'))
-                console.log(window.localStorage.getItem('pswd'))
                 $(':mobile-pagecontainer').pagecontainer('change', $('#mainpage'));
             })
-            // $(':mobile-pagecontainer').pagecontainer('change', $('#login'));
         })
         app.subscribeStart()
     },
@@ -60,6 +57,7 @@ var app = {
                    localStorage.clear();
             })
         })
+        $(':mobile-pagecontainer').pagecontainer('change', $('#login'));
         app.register()
     },
 /**************************************************************************************************
