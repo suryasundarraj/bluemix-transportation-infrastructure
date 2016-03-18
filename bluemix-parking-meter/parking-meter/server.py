@@ -3,7 +3,6 @@ SERVER - SMART PARKING LOT SYSTEM
 *********************************************************************************'''
 #Import the Modules Required
 from pubnub import Pubnub
-import json
 import os
 import datetime
 from threading import Thread

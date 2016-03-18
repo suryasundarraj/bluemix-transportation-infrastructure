@@ -12,8 +12,8 @@ SMART PARKING LOT SYSTEM
 #include "pubnub_sync.h"
 
 //Pubnub Publish and Subscribe Keys
-const char *pub_key = "pub-c-a1f796fb-1508-4c7e-9a28-9645035eee90";
-const char *sub_key = "sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f";
+const char *pub_key = "pub-c-913ab39c-d613-44b3-8622-2e56b8f5ea6d";
+const char *sub_key = "sub-c-8ad89b4e-a95e-11e5-a65d-02ee2ddab7fe";
 
 //Individual Parking ID's for the Parking LOT's 
 char *g_lot1 = "001";

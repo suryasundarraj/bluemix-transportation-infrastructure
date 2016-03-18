@@ -8,6 +8,7 @@ import datetime
 import ConfigParser
 import logging
 import time
+
 # Modules for the dashDB
 import ibm_db
 from ibm_db import connect, active
@@ -287,6 +288,28 @@ def generalSetting(p_vehicleNumber):
 	if(p_vehicleNumber != None):
 		if(vehicleDetails.has_key(p_vehicleNumber)):
 			if(vehicleDetails[p_vehicleNumber][DETAILS_BLOCK_STATUS] == 0):
+				pubnub.publish(channel=p_vehicleNumber, message={"vehicleNumber":p_vehicleNumber,"availableBal":vehicleDetails[p_vehicleNumber][DETAILS_BALANCE],"ownerName":vehicleDetails[p_vehicleNumber][DETAILS_OWNER_NAME],\
+					"vehicleType":vehicleDetails[p_vehicleNumber][DETAILS_VEHICLE_TYPE]})
+				l_connection = dB_init()
+				if(l_connection == None):
+					print("Database Connection Failed on Database Query")
+					return
+				l_database_query = "SELECT * FROM "+DB_SCHEMA+"."+DATABASE_TABLE_NAME_1+" WHERE VEHICLE_NUMBER = '"+str(p_vehicleNumber)+"'"
+				try:
+					l_db_statement = ibm_db.exec_immediate(l_connection, l_database_query)
+					l_temp_dict = ibm_db.fetch_assoc(l_db_statement)
+				except Exception as e:
+					logging.error("rfid Register exec/fetch_ERROR : " + str(e))
+				
+				while l_temp_dict:
+					if(l_temp_dict["VEHICLE_NUMBER"] == p_vehicleNumber):
+						vehicleDetails[p_vehicleNumber][DETAILS_BALANCE] = l_temp_dict["WALLET_BAL"]
+					try:
+						l_temp_dict = ibm_db.fetch_assoc(l_db_statement)
+					except Exception as e:
+						logging.error("rfid Register fetch_ERROR : " + str(e))
+				ibm_db.free_stmt(l_db_statement)
+				ibm_db.close(l_connection)
 				pubnub.publish(channel=p_vehicleNumber, message={"vehicleNumber":p_vehicleNumber,"availableBal":vehicleDetails[p_vehicleNumber][DETAILS_BALANCE],"ownerName":vehicleDetails[p_vehicleNumber][DETAILS_OWNER_NAME],\
 					"vehicleType":vehicleDetails[p_vehicleNumber][DETAILS_VEHICLE_TYPE]})
 			else:
