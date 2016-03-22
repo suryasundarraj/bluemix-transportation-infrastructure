@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-const char* g_ssid      = "radio";
-const char* g_password  = "radio@123";
+const char* g_ssid      = "Indiahacks";
+const char* g_password  = "iamhuman";
 const char* g_host      = "pubsub.pubnub.com";
 const char* g_pubKey    = "pub-c-a1f796fb-1508-4c7e-9a28-9645035eee90";
 const char* g_subKey    = "sub-c-d4dd77a4-1e13-11e5-9dcf-0619f8945a4f";
