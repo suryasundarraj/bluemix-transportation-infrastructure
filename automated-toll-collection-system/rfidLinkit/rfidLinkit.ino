@@ -3,13 +3,16 @@
 #include "SPI.h"
 #include "./PubNub.h"
 #include "settings.h"
-
+#include <Servo.h>
+bool flag = 0;
+Servo myservo;
 #define channel "vehicleIdentificanDevice-resp"
 char g_jsonResponse[26];
-
+int pos = 0;
 void setup() {
   Serial.begin(9600);
   Serial1.begin(9600);
+  myservo.attach(9);
   //Connecting to the local AP using the SSID and Password
   while (0 == LWiFi.connect(WIFI_AP, LWiFiLoginInfo(WIFI_AUTH, WIFI_PASSWORD)))
   {
@@ -47,8 +50,27 @@ void loop() {
     prepare_json_data(l_vehicleId);
     Serial.println(g_jsonResponse);
     pubnubPublish(g_jsonResponse);
-    memset(g_jsonResponse, 0, sizeof(g_jsonResponse)); 
+    memset(g_jsonResponse, 0, sizeof(g_jsonResponse));
+    if(flag == 1){
+      flag = 0;
+      for (pos =90; pos >= 20; pos -= 1) { // goes from 0 degrees to 180 degrees
+        // in steps of 1 degree
+        myservo.write(pos);              // tell servo to go to position in variable 'pos'
+        delay(15);                       // waits 15ms for the servo to reach the position
+      }
+      myservo.write(pos);
+      delay(5000);
+    }
   }
+  if(flag == 0){
+    flag = 1;
+    for (pos = 20; pos <= 90; pos += 1) { // goes from 0 degrees to 180 degrees
+      // in steps of 1 degree
+      myservo.write(pos);              // tell servo to go to position in variable 'pos'
+      delay(15);                       // waits 15ms for the servo to reach the position
+    }
+  }
+  myservo.write(90);
 }
 
 /*******************************************************************************************************
@@ -61,7 +83,7 @@ void pubnubPublish(char *p_data){
   LWiFiClient *client;
   client = PubNub.publish(channel,p_data);
   if (!client) {
-      Serial.println("publishing error");
+//      Serial.println("publishing error");
       delay(1000);
       return;
   }
